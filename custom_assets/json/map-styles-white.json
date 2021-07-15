@@ -1,0 +1,48 @@
+[
+  {
+    "featureType": "water",
+    "elementType": "labels",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+  "featureType": "poi",
+  "stylers": [
+    { "visibility": "off" }
+  ]
+},{
+  "featureType": "water",
+  "elementType": "geometry.fill",
+  "stylers": [
+    { "color": "#d8f4f9" }
+  ]
+},{
+  "featureType": "landscape.natural",
+  "elementType": "geometry.fill",
+  "stylers": [
+    {"color":"#c2d9da"}
+  ]
+},
+  {
+    "featureType": "administrative.country",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      { "visibility": "on" },
+      { "lightness": 46 }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },
+
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      { "color": "#808080" }
+    ]
+  }
+]

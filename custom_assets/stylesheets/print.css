@@ -1,0 +1,174 @@
+/* PRINT styles from GCC */
+/* line 4, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.print_only {
+  display: block; }
+
+/* line 8, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.print_logo {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* line 14, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+div#site_body {
+  padding-top: 3em; }
+
+/* line 20, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.site_header_area {
+  top: 0;
+  position: absolute; }
+  /* line 23, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+  .site_header_area.fixed {
+    position: absolute !important; }
+  /* line 26, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+  .site_header_area .brand1, .site_header_area .brand2 {
+    display: none; }
+
+/* pages that have a header_mask */
+/* line 33, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.content_page.module {
+  padding-top: 0; }
+
+/* line 37, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#missions_detail .content_page.module {
+  padding-top: 2em; }
+
+/* line 41, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.header_mask {
+  height: 30px; }
+
+/* END - pages that have a header_mask */
+/* line 47, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.custom_banner_container {
+  height: 68px; }
+  /* line 49, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+  .custom_banner_container img {
+    display: none; }
+  /* line 52, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+  .custom_banner_container .banner_header_overlay {
+    display: none; }
+
+/* line 56, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+a[href]:after {
+  content: ""; }
+
+/* homepage-specific styles: */
+/* line 61, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.definition_teaser {
+  color: white !important; }
+
+/* line 66, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.triple_teaser .column {
+  width: 31%;
+  float: left; }
+/* line 70, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.triple_teaser .column + .column {
+  margin-left: 1%; }
+
+/* line 76, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#home .homepage_site_teaser .text_col {
+  width: 58%;
+  float: left; }
+/* line 80, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#home .homepage_site_teaser .img_col {
+  display: block !important;
+  width: 40%;
+  float: right; }
+  /* line 84, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+  #home .homepage_site_teaser .img_col img {
+    display: block;
+    float: right; }
+
+/* line 92, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#home .site_header_area {
+  position: relative; }
+
+/* line 96, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.module.vital_signs {
+  overflow: hidden;
+  height: 600px !important; }
+
+/* line 103, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.homepage_carousel .master-slider {
+  height: auto !important;
+  min-height: 1px; }
+/* line 108, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.homepage_carousel #vital_signs_modal {
+  height: auto !important;
+  position: relative !important; }
+/* line 113, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.homepage_carousel .ms-container {
+  display: none !important; }
+
+/* line 119, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#vital_signs_modal .left_col {
+  width: 40%;
+  float: left; }
+
+/* line 124, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#vital_signs_modal .right_col {
+  width: 40%;
+  float: right; }
+
+/* line 129, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.vital_signs_menu {
+  margin-top: 3em;
+  border: 1px solid black;
+  border-width: 1px 0; }
+
+/* END - homepage-specific styles: */
+/* line 139, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#site_footer .upper_footer, #site_footer .sitemap {
+  display: none; }
+/* line 143, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#site_footer .lower_footer .nav_container {
+  display: none; }
+
+/* Content pages: */
+/* line 151, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.content_page .main_feature .master-slider {
+  overflow: hidden;
+  text-align: center; }
+
+/* line 156, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.primary_media_feature .carousel_container {
+  display: none; }
+
+/* line 161, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.wysiwyg_content blockquote {
+  border: none; }
+
+/* line 166, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.content_page.module {
+  padding-top: 0; }
+
+/* line 170, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#primary_column {
+  width: 60%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  display: block; }
+
+/* line 179, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#secondary_column {
+  width: 32%;
+  float: right;
+  position: relative;
+  font-size: 80%; }
+
+/* line 187, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.grid_view .module_title {
+  display: block; }
+
+/* line 191, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+#fancybox-lock, .fancybox-overlay {
+  display: none; }
+
+/* line 195, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.view_selectors {
+  display: none; }
+
+/* line 201, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/print.scss */
+.multi_teaser, .teasers_module, .multimedia_teaser, .filter_bar, .tertiary_nav_container, .secondary_nav_mobile, .carousel_teaser, .image_of_the_day {
+  display: none; }

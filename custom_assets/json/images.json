@@ -1,0 +1,385 @@
+{
+  "items" : [
+  {
+    "id" : 122,
+    "link": "/images/detail.html",
+    "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+         "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "jupiter" },
+         "feature": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" },
+         "full": { "link_text":"PIA18249.jpg (0.87 MB)","src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" },
+         "full_tiff": { "link_text":"PIA18249.tif (38.89 MB)", "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "jupiter",
+      "views": "10,234",
+      "credit": "X-ray: NASA/CXC/PSU/K.Getman, E.Feigelson, M.Kuhn and the MyStlX team Infrared: Nasa\/JPL-Caltech",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    }, {
+      "id" : 123,
+      "link": "/images/detail_2.html",
+      "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "feature": { "src": "/assets/images/content/tmp/images/starry-neb.jpg", "alt": "jupiter" },
+        "full": { "src": "/assets/images/content/tmp/images/starry-neb.jpg", "alt": "jupiter" }
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "mars",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    },{
+      "id" : 124,
+      "link": "/images/detail.html",
+      "title": "Voyager Goes Interstellar (Artist Concept)",
+      "body": "This artist's concept puts solar system distances in perspective. The scale bar is in astronomical units, with each set distance beyond 1 AU representing 10 times the previous distance. One AU is the distance from the sun to the Earth, which is about 93 million miles or 150 million kilometers. Neptune, the most distant planet from the sun, is about 30 AU.\n\nInformally, the term \"solar system\" is often used to mean the space out to the last planet. Scientific consensus, however, says the solar system goes out to the Oort Cloud, the source of the comets that swing by our sun on long time scales. Beyond the outer edge of the Oort Cloud, the gravity of other stars begins to dominate that of the sun.\n\nThe inner edge of the main part of the Oort Cloud could be as close as 1,000 AU from our sun. The outer edge is estimated to be around 100,000 AU.\n\nNASA's Voyager 1, humankind's most distant spacecraft, is around 125 AU. Scientists believe it entered interstellar space, or the space between stars, on Aug. 25, 2012. Much of interstellar space is actually inside our solar system. It will take about 300 years for Voyager 1 to reach the inner edge of the Oort Cloud and possibly about 30,000 years to fly beyond it.\n\nAlpha Centauri is currently the closest star to our solar system. But, in 40,000 years, Voyager 1 will be closer to the star AC +79 3888 than to our own sun. AC +79 3888 is actually traveling faster toward Voyager 1 than the spacecraft is traveling toward it.\n\nThe Voyager spacecraft were built and continue to be operated by NASA's Jet Propulsion Laboratory, in Pasadena, Calif. Caltech manages JPL for NASA. The Voyager missions are a part of NASA's Heliophysics System Observatory, sponsored by the Heliophysics Division of the Science Mission Directorate at NASA Headquarters in Washington. \n\n For more information about Voyager, visit http://www.nasa.gov/voyager and http://voyager.jpl.nasa.gov.",
+      "date": "2013-09-04",
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/home/asteroid(16x9).jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "After decades of exploration, Voyager 1 reaches a historic milestone for mankind, interstellar space."
+    },{
+      "id" : 125,
+      "link": "/images/detail.html",
+      "title": "Black Holes Shine for NuSTAR",
+      "body": "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR).\n\nNuSTAR's serendipitous discovery in this field, indicated by the arrow (Figure 1), lies to the left of a galaxy, called IC751, at which the telescope originally intended to look. Both magenta blobs show X-rays from massive black holes buried at the hearts of galaxies.\n\nThe optical image is from the Sloan Digital Sky Survey and a color composite of images over three different optical wavebands (the G, R, and I bands). The NuSTAR data shows X-rays in the 3 to 24 keV energy range.\n\nNuSTAR is a Small Explorer mission led by the California Institute of Technology in Pasadena and managed by NASA's Jet Propulsion Laboratory, also in Pasadena, for NASA's Science Mission Directorate in Washington. The spacecraft was built by Orbital Sciences Corporation, Dulles, Va. Its instrument was built by a consortium including Caltech; JPL; the University of California, Berkeley; Columbia University, New York; NASA's Goddard Space Flight Center, Greenbelt, Md.; the Danish Technical University in Denmark; Lawrence Livermore National Laboratory, Livermore, Calif.; ATK Aerospace Systems, Goleta, Calif., and with support from the Italian Space Agency (ASI) Science Data Center.\n\nNuSTAR's mission operations center is at UC Berkeley, with the ASI providing its equatorial ground station located at Malindi, Kenya. The mission's outreach program is based at Sonoma State University, Rohnert Park, Calif. NASA's Explorer Program is managed by Goddard. JPL is managed by Caltech for NASA.\n\nFor more information, visit http://www.nasa.gov/nustar and http://www.nustar.caltech.edu/.",
+      "date": "2013-09-05",
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/home/mars_carousel_img(16x9).jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR)"
+    },{
+      "id" : 126,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/missions/mars_landing.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+    "id" : 122,
+    "link": "/images/detail.html",
+    "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+         "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "jupiter" },
+         "feature": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" },
+         "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "jupiter",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    }, {
+      "id" : 123,
+      "link": "/images/detail.html",
+      "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "feature": { "src": "/assets/images/content/tmp/images/starry-neb.jpg", "alt": "jupiter" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "mars",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    },{
+      "id" : 124,
+      "link": "/images/detail.html",
+      "title": "Voyager Goes Interstellar (Artist Concept)",
+      "body": "This artist's concept puts solar system distances in perspective. The scale bar is in astronomical units, with each set distance beyond 1 AU representing 10 times the previous distance. One AU is the distance from the sun to the Earth, which is about 93 million miles or 150 million kilometers. Neptune, the most distant planet from the sun, is about 30 AU.\n\nInformally, the term \"solar system\" is often used to mean the space out to the last planet. Scientific consensus, however, says the solar system goes out to the Oort Cloud, the source of the comets that swing by our sun on long time scales. Beyond the outer edge of the Oort Cloud, the gravity of other stars begins to dominate that of the sun.\n\nThe inner edge of the main part of the Oort Cloud could be as close as 1,000 AU from our sun. The outer edge is estimated to be around 100,000 AU.\n\nNASA's Voyager 1, humankind's most distant spacecraft, is around 125 AU. Scientists believe it entered interstellar space, or the space between stars, on Aug. 25, 2012. Much of interstellar space is actually inside our solar system. It will take about 300 years for Voyager 1 to reach the inner edge of the Oort Cloud and possibly about 30,000 years to fly beyond it.\n\nAlpha Centauri is currently the closest star to our solar system. But, in 40,000 years, Voyager 1 will be closer to the star AC +79 3888 than to our own sun. AC +79 3888 is actually traveling faster toward Voyager 1 than the spacecraft is traveling toward it.\n\nThe Voyager spacecraft were built and continue to be operated by NASA's Jet Propulsion Laboratory, in Pasadena, Calif. Caltech manages JPL for NASA. The Voyager missions are a part of NASA's Heliophysics System Observatory, sponsored by the Heliophysics Division of the Science Mission Directorate at NASA Headquarters in Washington. \n\n For more information about Voyager, visit http://www.nasa.gov/voyager and http://voyager.jpl.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "mission": "Chandra X-ray Observatory, Spitzer Space Telescope",
+      "mission_link": "/missons/detail.html",
+      "category": "universe",
+      "tease" : "After decades of exploration, Voyager 1 reaches a historic milestone for mankind, interstellar space."
+    },{
+      "id" : 125,
+      "link": "/images/detail.html",
+      "title": "Black Holes Shine for NuSTAR",
+      "body": "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR).\n\nNuSTAR's serendipitous discovery in this field, indicated by the arrow (Figure 1), lies to the left of a galaxy, called IC751, at which the telescope originally intended to look. Both magenta blobs show X-rays from massive black holes buried at the hearts of galaxies.\n\nThe optical image is from the Sloan Digital Sky Survey and a color composite of images over three different optical wavebands (the G, R, and I bands). The NuSTAR data shows X-rays in the 3 to 24 keV energy range.\n\nNuSTAR is a Small Explorer mission led by the California Institute of Technology in Pasadena and managed by NASA's Jet Propulsion Laboratory, also in Pasadena, for NASA's Science Mission Directorate in Washington. The spacecraft was built by Orbital Sciences Corporation, Dulles, Va. Its instrument was built by a consortium including Caltech; JPL; the University of California, Berkeley; Columbia University, New York; NASA's Goddard Space Flight Center, Greenbelt, Md.; the Danish Technical University in Denmark; Lawrence Livermore National Laboratory, Livermore, Calif.; ATK Aerospace Systems, Goleta, Calif., and with support from the Italian Space Agency (ASI) Science Data Center.\n\nNuSTAR's mission operations center is at UC Berkeley, with the ASI providing its equatorial ground station located at Malindi, Kenya. The mission's outreach program is based at Sonoma State University, Rohnert Park, Calif. NASA's Explorer Program is managed by Goddard. JPL is managed by Caltech for NASA.\n\nFor more information, visit http://www.nasa.gov/nustar and http://www.nustar.caltech.edu/.",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" } ,
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR)"
+    },{
+      "id" : 126,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+    "id" : 122,
+    "link": "/images/detail.html",
+    "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+         "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "jupiter" },
+         "feature": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" },
+         "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "jupiter",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    }, {
+      "id" : 123,
+      "link": "/images/detail.html",
+      "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "feature": { "src": "/assets/images/content/tmp/images/starry-neb.jpg", "alt": "jupiter" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+      },
+      "category": "mars",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    },{
+      "id" : 124,
+      "link": "/images/detail.html",
+      "title": "Voyager Goes Interstellar (Artist Concept)",
+      "body": "This artist's concept puts solar system distances in perspective. The scale bar is in astronomical units, with each set distance beyond 1 AU representing 10 times the previous distance. One AU is the distance from the sun to the Earth, which is about 93 million miles or 150 million kilometers. Neptune, the most distant planet from the sun, is about 30 AU.\n\nInformally, the term \"solar system\" is often used to mean the space out to the last planet. Scientific consensus, however, says the solar system goes out to the Oort Cloud, the source of the comets that swing by our sun on long time scales. Beyond the outer edge of the Oort Cloud, the gravity of other stars begins to dominate that of the sun.\n\nThe inner edge of the main part of the Oort Cloud could be as close as 1,000 AU from our sun. The outer edge is estimated to be around 100,000 AU.\n\nNASA's Voyager 1, humankind's most distant spacecraft, is around 125 AU. Scientists believe it entered interstellar space, or the space between stars, on Aug. 25, 2012. Much of interstellar space is actually inside our solar system. It will take about 300 years for Voyager 1 to reach the inner edge of the Oort Cloud and possibly about 30,000 years to fly beyond it.\n\nAlpha Centauri is currently the closest star to our solar system. But, in 40,000 years, Voyager 1 will be closer to the star AC +79 3888 than to our own sun. AC +79 3888 is actually traveling faster toward Voyager 1 than the spacecraft is traveling toward it.\n\nThe Voyager spacecraft were built and continue to be operated by NASA's Jet Propulsion Laboratory, in Pasadena, Calif. Caltech manages JPL for NASA. The Voyager missions are a part of NASA's Heliophysics System Observatory, sponsored by the Heliophysics Division of the Science Mission Directorate at NASA Headquarters in Washington. \n\n For more information about Voyager, visit http://www.nasa.gov/voyager and http://voyager.jpl.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "After decades of exploration, Voyager 1 reaches a historic milestone for mankind, interstellar space."
+    },{
+      "id" : 125,
+      "link": "/images/detail.html",
+      "title": "Black Holes Shine for NuSTAR",
+      "body": "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR).\n\nNuSTAR's serendipitous discovery in this field, indicated by the arrow (Figure 1), lies to the left of a galaxy, called IC751, at which the telescope originally intended to look. Both magenta blobs show X-rays from massive black holes buried at the hearts of galaxies.\n\nThe optical image is from the Sloan Digital Sky Survey and a color composite of images over three different optical wavebands (the G, R, and I bands). The NuSTAR data shows X-rays in the 3 to 24 keV energy range.\n\nNuSTAR is a Small Explorer mission led by the California Institute of Technology in Pasadena and managed by NASA's Jet Propulsion Laboratory, also in Pasadena, for NASA's Science Mission Directorate in Washington. The spacecraft was built by Orbital Sciences Corporation, Dulles, Va. Its instrument was built by a consortium including Caltech; JPL; the University of California, Berkeley; Columbia University, New York; NASA's Goddard Space Flight Center, Greenbelt, Md.; the Danish Technical University in Denmark; Lawrence Livermore National Laboratory, Livermore, Calif.; ATK Aerospace Systems, Goleta, Calif., and with support from the Italian Space Agency (ASI) Science Data Center.\n\nNuSTAR's mission operations center is at UC Berkeley, with the ASI providing its equatorial ground station located at Malindi, Kenya. The mission's outreach program is based at Sonoma State University, Rohnert Park, Calif. NASA's Explorer Program is managed by Goddard. JPL is managed by Caltech for NASA.\n\nFor more information, visit http://www.nasa.gov/nustar and http://www.nustar.caltech.edu/.",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" } ,
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR)"
+    },{
+      "id" : 126,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+    "id" : 122,
+    "link": "/images/detail.html",
+    "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+         "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "jupiter" },
+         "feature": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" },
+         "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "jupiter",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    }, {
+      "id" : 123,
+      "link": "/images/detail.html",
+      "title": "Landing Area Narrowed for 2016 InSight Mission to Mars",
+      "body": "The process of selecting a site for NASA's next landing on Mars, planned for September 2016, has narrowed to four semifinalist sites located close together in the Elysium Planitia region of Mars. The mission known by the acronym InSight will study the Red Planet's interior, rather than surface features, to advance understanding of the processes that formed and shaped the rocky planets of the inner solar system, including Earth. The location of the cluster of semifinalist landing sites for InSight is indicated on this near-global topographic map of Mars, which also indicates landing sites of current and past NASA missions to the surface of Mars. The mission's full name is Interior Exploration Using Seismic Investigations, Geodesy and Heat Transport. \n\n The location of Elysium Planitia close to the Martian equator meets an engineering requirement for the stationary InSight lander to receive adequate solar irradiation year-round on its photovoltaic array. The location also meets an engineering constraint for low elevation, optimizing the amount of atmosphere the spacecraft can use for deceleration during its descent to the surface. The number of candidate landing sites for InSight was trimmed from 22 down to four in August 2013. This down-selection facilitates focusing the efforts to further evaluate the four sites. Cameras on NASA's Mars Reconnaissance Orbiter will be used to gather more information about them before the final selection. \n\n The topographic map uses data from the Mars Orbiter Laser Altimeter on NASA's Mars Global Surveyor spacecraft. The color coding on this map indicates elevation relative to a reference datum, since Mars has no \"sea level.\" The lowest elevations are presented as dark blue; the highest as white. The difference between green and orange in the color coding is about 2.5 miles (4 kilometers) vertically.\n\nSight will deploy a heat-flow probe designed to hammer itself 3 to 5 yards (or meters) deep and monitor heat coming from the planet's interior. The mission will also use a seismometer and radio science. The French space agency Centre National d'Etudes Spatiales, or CNES, and the German Aerospace Center, or DLR, are contributing instruments to the mission. Lockheed Martin Space Systems, Denver, is building the spacecraft.\n\nInSight is part of NASA's Discovery Program of competitively selected solar system exploration missions with highly focused scientific goals. NASA's Marshall Space Flight Center in Huntsville, Ala., manages the Discovery Program for the agency's Science Mission Directorate in Washington. NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology, Pasadena, manages InSight for the NASA Science Mission Directorate. For more information about InSight, visit: http://insight.jpl.nasa.gov. Additional information on the Discovery Program is available at: http://discovery.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "feature": { "src": "/assets/images/content/tmp/images/starry-neb.jpg", "alt": "jupiter" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+      },
+      "category": "mars",
+      "tease" : "NASA's next landing on Mars, has narrowed to four semifinalist sites located in the Elysium Planitia region of Mars "
+    },{
+      "id" : 124,
+      "link": "/images/detail.html",
+      "title": "Voyager Goes Interstellar (Artist Concept)",
+      "body": "This artist's concept puts solar system distances in perspective. The scale bar is in astronomical units, with each set distance beyond 1 AU representing 10 times the previous distance. One AU is the distance from the sun to the Earth, which is about 93 million miles or 150 million kilometers. Neptune, the most distant planet from the sun, is about 30 AU.\n\nInformally, the term \"solar system\" is often used to mean the space out to the last planet. Scientific consensus, however, says the solar system goes out to the Oort Cloud, the source of the comets that swing by our sun on long time scales. Beyond the outer edge of the Oort Cloud, the gravity of other stars begins to dominate that of the sun.\n\nThe inner edge of the main part of the Oort Cloud could be as close as 1,000 AU from our sun. The outer edge is estimated to be around 100,000 AU.\n\nNASA's Voyager 1, humankind's most distant spacecraft, is around 125 AU. Scientists believe it entered interstellar space, or the space between stars, on Aug. 25, 2012. Much of interstellar space is actually inside our solar system. It will take about 300 years for Voyager 1 to reach the inner edge of the Oort Cloud and possibly about 30,000 years to fly beyond it.\n\nAlpha Centauri is currently the closest star to our solar system. But, in 40,000 years, Voyager 1 will be closer to the star AC +79 3888 than to our own sun. AC +79 3888 is actually traveling faster toward Voyager 1 than the spacecraft is traveling toward it.\n\nThe Voyager spacecraft were built and continue to be operated by NASA's Jet Propulsion Laboratory, in Pasadena, Calif. Caltech manages JPL for NASA. The Voyager missions are a part of NASA's Heliophysics System Observatory, sponsored by the Heliophysics Division of the Science Mission Directorate at NASA Headquarters in Washington. \n\n For more information about Voyager, visit http://www.nasa.gov/voyager and http://voyager.jpl.nasa.gov.",
+      "date": "2013-09-04",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "After decades of exploration, Voyager 1 reaches a historic milestone for mankind, interstellar space."
+    },{
+      "id" : 125,
+      "link": "/images/detail.html",
+      "title": "Black Holes Shine for NuSTAR",
+      "body": "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR).\n\nNuSTAR's serendipitous discovery in this field, indicated by the arrow (Figure 1), lies to the left of a galaxy, called IC751, at which the telescope originally intended to look. Both magenta blobs show X-rays from massive black holes buried at the hearts of galaxies.\n\nThe optical image is from the Sloan Digital Sky Survey and a color composite of images over three different optical wavebands (the G, R, and I bands). The NuSTAR data shows X-rays in the 3 to 24 keV energy range.\n\nNuSTAR is a Small Explorer mission led by the California Institute of Technology in Pasadena and managed by NASA's Jet Propulsion Laboratory, also in Pasadena, for NASA's Science Mission Directorate in Washington. The spacecraft was built by Orbital Sciences Corporation, Dulles, Va. Its instrument was built by a consortium including Caltech; JPL; the University of California, Berkeley; Columbia University, New York; NASA's Goddard Space Flight Center, Greenbelt, Md.; the Danish Technical University in Denmark; Lawrence Livermore National Laboratory, Livermore, Calif.; ATK Aerospace Systems, Goleta, Calif., and with support from the Italian Space Agency (ASI) Science Data Center.\n\nNuSTAR's mission operations center is at UC Berkeley, with the ASI providing its equatorial ground station located at Malindi, Kenya. The mission's outreach program is based at Sonoma State University, Rohnert Park, Calif. NASA's Explorer Program is managed by Goddard. JPL is managed by Caltech for NASA.\n\nFor more information, visit http://www.nasa.gov/nustar and http://www.nustar.caltech.edu/.",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "universe",
+      "tease" : "An optical color image of galaxies is seen here overlaid with X-ray data (magenta) from NASA's Nuclear Spectroscopic Telescope Array (NuSTAR)"
+    },{
+      "id" : 126,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    },{
+      "id" : 127,
+      "link": "/images/detail.html",
+      "title": "Darwin outcrop",
+      "date": "2013-09-05",
+      "images": {
+        "thumb": { "src": "/assets/images/content/tmp/home/asteroids/a12.jpeg", "alt": "asteroid" },
+        "full": { "src": "/assets/images/content/tmp/images/cloudy-jupiter-large.jpg", "alt": "jupiter" }
+
+      },
+      "category": "mars",
+      "tease" : "An outcrop visible as light-toned streaks in the lower center of this image has been chosen as a place for NASA\\'s Mars rover Curiosity to study for a few days in September 2013."
+    }
+  ],
+  "more": true
+}
