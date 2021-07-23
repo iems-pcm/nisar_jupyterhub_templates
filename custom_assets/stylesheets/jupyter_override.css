@@ -62,8 +62,50 @@
     -webkit-box-shadow:none;
     box-shadow:none}
 
-/*
-.site_header_area {
-    color:#000000 !important
+a.sso_login_button {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  padding: 0.6em 1em 0;
+  text-decoration: none; 
 }
-*/
+@media (min-width: 600px) {
+    a.sso_login_button {
+      padding: 0; 
+    }
+}
+a.sso_login_button .sso_login_icon {
+    text-indent: -9999px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 20px;
+    background: url("/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
+    background-size: 25px 20px; 
+}
+@media (min-width: 600px) {
+      a.sso_login_button .sso_login_icon {
+        background: url("/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
+        background-size: 90%;
+        width: 139px;
+        height: 43px; 
+     } 
+}
+@media (min-width: 1200px) {
+     a.sso_login_button .sso_login_icon {
+        background-size: 100%; 
+     } 
+}
+a.sso_login_button .sso_login_label {
+    display: none; 
+}
+@media (min-width: 769px) {
+    a.sso_login_button .sso_login_label {
+        top: .1em;
+        margin-left: .3em;
+        position: relative;
+        text-transform: uppercase;
+        color: white; 
+   }
+}

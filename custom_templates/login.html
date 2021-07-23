@@ -35,7 +35,7 @@
   <!-- / DYNAMIC: id = 'page_id' and class = 'theme' -->
   <!-- <body class='light_background logged_out mobile_menu' id='site_map'> -->
 
-  {% block nav_bar %}
+{% block nav_bar %}
     <!--[if lt IE 8]>
       <div class='browsehappy' style='font-size: 36px; color: white; position:absolute; height: 3000px; width: 100%; background: #000; z-index: 10000; padding: 30px;'>
         You are using an
@@ -86,7 +86,7 @@
                   </div>
                 </div>
                 <img alt='' class='print_only print_logo' src='{{ static_url("custom_assets/images/logo_nasa_trio_black@2x.png") }}'>
-                <img alt='' class='print_only print_logo' src='logo_nasa_trio_black@2x.png'>
+                <img alt='' class='print_only print_logo' src='{{ static_url("custom_assets/images/logo_nasa_trio_black@2x.png") }}'>
               </div>
               <a class='modal_close' id='modal_close' title='close menu'>close menu</a>
               <div class='nav_area'>
@@ -98,150 +98,216 @@
             <section class='navigation_area'>
               <div class='grid_layout'>
                 <div class='directory'>
-                  <form action='' class='overlay_search top_search'>
-                    <input class='search_field' name='search' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
+                  <form action='https://www.jpl.nasa.gov/search' class='overlay_search top_search'>
+                    <input class='search_field' name='query' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
                     <input class='search_submit' type='submit' value=''>
                   </form>
+
                   <div class='nav_item'>
                     <h3 class='nav_title'>
-                      about
+                      About JPL
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="https://www.jpl.nasa.gov/pages/about/about.html">director's message</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Who We Are </a>
                       </li>
                       <li>
-                        <a href="https://www.jpl.nasa.gov/who-we-are/executive-council">Executive Council</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/executive-council" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Executive Council </a>
                       </li>
                       <li>
-                        <a href="https://www.jpl.nasa.gov/who-we-are/history">history</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/faces-of-leadership-the-directors-of-jpl" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Directors of JPL </a>
                       </li>
                       <li>
-                        <a href="https://www.jpl.nasa.gov/who-we-are/jpl-annual-reports">annual reports</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/history" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL History </a>
                       </li>
                       <li>
-                        <a href="/pages/contact_JPL.html">contact us</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/documentary-series-jpl-and-the-space-age" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Documentary Series </a>
                       </li>
                       <li>
-                        <a href="https://www.jpl.jobs" target=_blank>careers</a>
+                        <a href="https://www.jpl.nasa.gov/virtual-tour/" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Virtual Tour </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/jpl-annual-reports" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Annual Reports </a>
                       </li>
                     </ul>
                   </div>
                   <div class='gradient_line'></div>
+
                   <div class='nav_item'>
                     <h3 class='nav_title'>
-                      education
+                      Missions
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="http://www.jpl.nasa.gov/education/students/">learn</a>
+                        <a href="https://www.jpl.nasa.gov/missions" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> All </a>
                       </li>
                       <li>
-                        <a href="http://www.jpl.nasa.gov/education/internships/">intern</a>
+                        <a href="https://www.jpl.nasa.gov/missions?mission_status=current" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Current </a>
                       </li>
                       <li>
-                        <a href="http://www.jpl.nasa.gov/education/teachers/">teach</a>
+                        <a href="https://www.jpl.nasa.gov/missions?mission_status=past" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Past </a>
                       </li>
                       <li>
-                        <a href="http://www.jpl.nasa.gov/education/informal/">inspire</a>
-                      </li>
-                      <li>
-                        <a href="http://www.jpl.nasa.gov/education/index.cfm?page=67">play</a>
+                        <a href="https://www.jpl.nasa.gov/missions?mission_status=future" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Future </a>
                       </li>
                     </ul>
                   </div>
                   <div class='gradient_line'></div>
+
                   <div class='nav_item'>
                     <h3 class='nav_title'>
-                      news
+                      News
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/news">latest news</a>
+                        <a href="https://www.jpl.nasa.gov/news" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> All </a>
                       </li>
                       <li>
-                        <a href="/pages/news/press-kits.html">press kits</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Earth" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Earth </a>
                       </li>
                       <li>
-                        <a href="/pages/news/fact-sheets.html">fact sheets</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Mars" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Mars </a>
                       </li>
                       <li>
-                        <a href="/pages/news/media-room.html">media room</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Solar%20System" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Solar System </a>
                       </li>
                       <li>
-                        <a href="/pages/news/blog.html">blog</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Stars%20and%20Galaxies" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Universe </a>
+                      </li>
+                      <li>
+                        <a href="https://jpl.nasa.gov/news?topics=Technology" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Technology </a>
                       </li>
                     </ul>
                   </div>
                   <div class='gradient_line'></div>
+
                   <div class='nav_item'>
                     <h3 class='nav_title'>
-                      missions
+                      Galleries
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/missions">current</a>
+                        <a href="https://www.jpl.nasa.gov/images" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Images </a>
                       </li>
                       <li>
-                        <a href="/missions">past</a>
+                        <a href="https://www.jpl.nasa.gov/videos" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Videos </a>
                       </li>
                       <li>
-                        <a href="/missions">future</a>
+                        <a href="https://www.jpl.nasa.gov/audio" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Audio </a>
                       </li>
                       <li>
-                        <a href="/missions">proposed</a>
+                        <a href="https://www.jpl.nasa.gov/podcasts" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Podcasts </a>
                       </li>
                       <li>
-                        <a href="/missions">all</a>
+                        <a href="https://www.jpl.nasa.gov/infographics" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Infographics </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/galleries/visions-of-the-future" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Visions of the Future </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/slice-of-history" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Slice of History </a>
                       </li>
                     </ul>
                   </div>
                   <div class='gradient_line'></div>
+
                   <div class='nav_item'>
                     <h3 class='nav_title'>
-                      galleries
+                      Engage
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/images">images</a>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL and the Community </a>
                       </li>
                       <li>
-                        <a href="/videos">videos</a>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/lecture-series" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Lecture Series </a>
                       </li>
                       <li>
-                        <a href="/infographics/home.html">infographics</a>
+                        <a href="https://www.jpl.nasa.gov/events/tours/" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Public Tours </a>
                       </li>
                       <li>
-                        <a href="/images">wallpapers</a>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/public-event-status" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Events </a>
                       </li>
                       <li>
-                        <a href="/images">audio</a>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/team-competitions" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Team Competitions </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/jpl-speakers-bureau" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL Speakers Bureau </a>
                       </li>
                     </ul>
                   </div>
                   <div class='gradient_line'></div>
+
                   <div class='nav_item'>
                     <h3 class='nav_title'>
-                      public events
+                      Topics
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/pages/public-events/public-events.html">overview</a>
+                        <a href="https://www.jpl.nasa.gov/topics/solar-system" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Solar System </a>
                       </li>
                       <li>
-                        <a href="/pages/public-events/tours.html">tours</a>
+                        <a href="https://www.jpl.nasa.gov/topics/mars" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Mars </a>
                       </li>
                       <li>
-                        <a href="/pages/public-events/lecture-series.html">lecture series</a>
+                        <a href="https://www.jpl.nasa.gov/topics/earth" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Earth </a>
                       </li>
                       <li>
-                        <a href="/pages/public-events/open-house.html">open house</a>
+                        <a href="https://www.jpl.nasa.gov/topics/climate-change" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Climate Change </a>
                       </li>
                       <li>
-                        <a href="/pages/public-events/speakers-bureau.html">speakers bureau</a>
+                        <a href="https://www.jpl.nasa.gov/topics/stars-and-galaxies" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Stars and Galaxies </a>
                       </li>
                       <li>
-                        <a href="/pages/public-events/team-competitions.html">team competitions</a>
+                        <a href="https://www.jpl.nasa.gov/topics/exoplanets" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Exoplanets </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/technology" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Technology </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/jpl-life" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL Life </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='gradient_line'></div>
+
+                  <div class='nav_item'>
+                    <h3 class='nav_title'>
+                      For Media
+                    </h3>
+                    <ul class='subnav'>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/media-information" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Contacts and Information </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/media-information/press-kits" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Press Kits </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='gradient_line'></div>
+
+                  <div class='nav_item'>
+                    <h3 class='nav_title'>
+                      More
+                    </h3>
+                    <ul class='subnav'>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/asteroid-watch" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Asteroid Watch </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/robotics-at-jpl" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Robotics at JPL </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/signup/" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Subscribe to Newsletter </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/universe" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Universe Newsletter </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/social" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Social Media </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/rss" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> RSS </a>
                       </li>
                     </ul>
                   </div>
@@ -263,14 +329,14 @@
                         <a addthis:userid='nasajpl' class='addthis_button_instagram_follow icon'>
                           <img alt='instagram icon' src='{{ static_url("custom_assets/images/social_media_sprite.png") }}'>
                         </a>
-                        <a class='icon all_icon' href='/pages/follow/social.html'>
+                        <a class='icon all_icon' href='https://www.jpl.nasa.gov/pages/follow/social.html'>
                           <span>All</span>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <form action='' class='overlay_search'>
-                    <input class='search_field' name='search' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
+                  <form action='https://wwww.jpl.nasa.gov/search' class='overlay_search'>
+                    <input class='search_field' name='query' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
                     <input class='search_submit' type='submit' value=''>
                   </form>
                 </div>
@@ -288,9 +354,18 @@
           <div class='header_mask'></div>
           <section class='content_page module'>
             <div id='login-grid' class='grid_layout'>
+              <div id='login-main' class='container'>
+                <div class="service-login">
+                  <a class="sso_login_button" id="sso_login_button" title="JPL SSO" href="oauth_login?next=%2Fhub%2F">
+                      <span class='sso_login_icon'>Sign in with JPL SSO</span>
+                  </a>
+                </div>
+              </div>
+    <!-- 
     {% block login %}
             {{ super() }}
     {% endblock %}
+    -->
             </div>
          </section>
        </div>
@@ -299,19 +374,18 @@
 
 {% block footer %}
         <!-- START FOOTER: "DEFAULT" -->
-        </div>
         <footer class='clearfix' id='site_footer'>
           <section class='upper_footer'>
             <div class='grid_layout'>
               <div class='footer_newsletter'>
-                <h2>Get the Newsletter</h2>
-                <form action='/signup/index.php' class='submit_newsletter' method="post">
+                <h2>Get the Latest from JPL</h2>
+                <form action='https://www.jpl.nasa.gov/signup/index.php' class='submit_newsletter' method="post">
                   <input class='email_field' name='email_field' onblur="this.placeholder = 'enter email address'" onfocus="this.placeholder = ''" placeholder='enter email address' type='text' value=''>
                   <input class='email_submit' type='submit' value=''>
                 </form>
               </div>
               <div class='share'>
-                <h2>Follow JPL</h2>
+                <h2>Follow Us</h2>
                 <div class='social_icons'>
                   <!-- AddThis Button BEGIN -->
                   <div class='addthis_toolbox addthis_default_style addthis_32x32_style'>
@@ -327,7 +401,7 @@
                     <a addthis:userid='nasajpl' class='addthis_button_instagram_follow icon'>
                       <img alt='instagram icon' src='{{ static_url("custom_assets/images/social_media_sprite.png") }}'>
                     </a>
-                    <a class='icon all_icon' href='/social/'>
+                    <a class='icon all_icon' href='https://www.jpl.nasa.gov/social/'>
                       <span>All</span>
                     </a>
                     <script>
@@ -347,70 +421,29 @@
                 <div class='sitemap_block'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      about
+                      About JPL
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/about/">Director's Message</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Who We Are </a>
                       </li>
                       <li>
-                        <a href="/about/exec.php">Executive Council</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/executive-council" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Executive Council </a>
                       </li>
                       <li>
-                        <a href="/about/history.php">History</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/faces-of-leadership-the-directors-of-jpl" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Directors of JPL </a>
                       </li>
                       <li>
-                        <a href="/about/reports.php">Annual Reports</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/history" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL History </a>
                       </li>
                       <li>
-                        <a href="/contact_JPL.php">Contact Us</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/documentary-series-jpl-and-the-space-age" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Documentary Series </a>
                       </li>
                       <li>
-                        <a href="/opportunities/">Opportunities</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='footer_sitemap_item'>
-                    <h3 class='sitemap_title'>
-                      missions
-                    </h3>
-                    <ul class='subnav'>
-                      <li>
-                        <a href="/missions/?type=current">Current</a>
+                        <a href="https://www.jpl.nasa.gov/virtual-tour/" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Virtual Tour </a>
                       </li>
                       <li>
-                        <a href="/missions/?type=past">Past</a>
-                      </li>
-                      <li>
-                        <a href="/missions/?type=future">Future</a>
-                      </li>
-                      <li>
-                        <a href="/missions/?type=proposed">Proposed</a>
-                      </li>
-                      <li>
-                        <a href="/missions">All</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='footer_sitemap_item'>
-                    <h3 class='sitemap_title'>
-                      galleries
-                    </h3>
-                    <ul class='subnav'>
-                      <li>
-                        <a href="/spaceimages/">JPL Space Images</a>
-                      </li>
-                      <li>
-                        <a href="/infographics/">Infographics</a>
-                      </li>
-                      <li>
-                        <a href="http://photojournal.jpl.nasa.gov/">Photojournal</a>
-                      </li>
-                      <li>
-                        <a href="http://www.nasaimages.org/">NASA Images</a>
-                      </li>
-                      <li>
-                        <a href="/apps/">Mobile Apps</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/jpl-annual-reports" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Annual Reports </a>
                       </li>
                     </ul>
                   </div>
@@ -418,72 +451,20 @@
                 <div class='sitemap_block'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      education
+                      Missions
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/education/">Homepage</a>
+                        <a href="https://www.jpl.nasa.gov/missions" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> All </a>
                       </li>
                       <li>
-                        <a href="/education/teachers/">Teach</a>
+                        <a href="https://www.jpl.nasa.gov/missions?mission_status=current" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Current </a>
                       </li>
                       <li>
-                        <a href="/education/students/">Learn</a>
+                        <a href="https://www.jpl.nasa.gov/missions?mission_status=past" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Past </a>
                       </li>
                       <li>
-                        <a href="/education/internships/">Intern</a>
-                      </li>
-                      <li>
-                        <a href="/education/index.cfm?page=67">Play</a>
-                      </li>
-                      <li>
-                        <a href="/education/videos/">News</a>
-                      </li>
-                      <li>
-                        <a href="/education/index.cfm?page=62">Calendar</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='footer_sitemap_item'>
-                    <h3 class='sitemap_title'>
-                      news
-                    </h3>
-                    <ul class='subnav'>
-                      <li>
-                        <a href="/news">Latest News</a>
-                      </li>
-                      <li>
-                        <a href="/news/presskits.php">Press Kits</a>
-                      </li>
-                      <li>
-                        <a href="/news/factsheets.php">Fact Sheets</a>
-                      </li>
-                      <li>
-                        <a href="/news/mediaroom.php">Media Room</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='footer_sitemap_item'>
-                    <h3 class='sitemap_title'>
-                      public events</h3>
-                    <ul class='subnav'>
-                      <li>
-                        <a href="/events/">Overview</a>
-                      </li>
-                      <li>
-                        <a href="/events/tours/views/">Tours</a>
-                      </li>
-                      <li>
-                        <a href="/events/lectures.php">Lecture Series</a>
-                      </li>
-                      <li>
-                        <a href="/events/open-house.php">Open House</a>
-                      </li>
-                      <li>
-                        <a href="/events/speakers-bureau.php">Speakers Bureau</a>
-                      </li>
-                      <li>
-                        <a href="/events/team-competitions.php">Team Competitions</a>
+                        <a href="https://www.jpl.nasa.gov/missions?mission_status=future" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Future </a>
                       </li>
                     </ul>
                   </div>
@@ -491,50 +472,26 @@
                 <div class='sitemap_block'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      Our Sites
+                      News
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/asteroidwatch/">Asteroid Watch</a>
+                        <a href="https://www.jpl.nasa.gov/news" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> All </a>
                       </li>
                       <li>
-                        <a href="http://saturn.jpl.nasa.gov/index.cfm">Cassini - Mission to Saturn</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Earth" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Earth </a>
                       </li>
                       <li>
-                        <a href="http://www.climate.nasa.gov">Earth / Global Climate Change</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Mars" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Mars </a>
                       </li>
                       <li>
-                        <a href="http://planetquest.jpl.nasa.gov">Planetquest / Exoplanets</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Solar%20System" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Solar System </a>
                       </li>
                       <li>
-                        <a href="/missions/juno/">Juno - Mission to Jupiter</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Stars%20and%20Galaxies" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Universe </a>
                       </li>
                       <li>
-                        <a href="http://marsprogram.jpl.nasa.gov/">Mars Exploration</a>
-                      </li>
-                      <li>
-                        <a href="http://marsprogram.jpl.nasa.gov/msl/">Mars Science Laboratory / Curiosity</a>
-                      </li>
-                      <li>
-                        <a href="http://rosetta.jpl.nasa.gov/">Rosetta - Understanding Comets</a>
-                      </li>
-                      <li>
-                        <a href="http://scienceandtechnology.jpl.nasa.gov/">Science and Technology</a>
-                      </li>
-                      <li>
-                        <a href="http://solarsystem.nasa.gov/">Solar System Exploration</a>
-                      </li>
-                      <li>
-                        <a href="http://eyes.nasa.gov/">Eyes on the Solar System</a>
-                      </li>
-                      <li>
-                        <a href="http://eyes.nasa.gov/earth/">Eyes on the Earth</a>
-                      </li>
-                      <li>
-                        <a href="http://eyes.nasa.gov/exoplanets/">Eyes on Exoplanets</a>
-                      </li>
-                      <li>
-                        <a href="http://www.spitzer.caltech.edu/">Spitzer Space Telescope</a>
+                        <a href="https://jpl.nasa.gov/news?topics=Technology" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Technology </a>
                       </li>
                     </ul>
                   </div>
@@ -542,57 +499,131 @@
                 <div class='sitemap_block'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      Follow JPL
+                      Galleries
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/signup/">Newsletter</a>
+                        <a href="https://www.jpl.nasa.gov/images" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Images </a>
                       </li>
                       <li>
-                        <a href="http://www.facebook.com/NASAJPL">Facebook</a>
+                        <a href="https://www.jpl.nasa.gov/videos" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Videos </a>
                       </li>
                       <li>
-                        <a href="http://twitter.com/NASAJPL">Twitter</a>
+                        <a href="https://www.jpl.nasa.gov/audio" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Audio </a>
                       </li>
                       <li>
-                        <a href="http://www.youtube.com/user/JPLnews">YouTube</a>
+                        <a href="https://www.jpl.nasa.gov/podcasts" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Podcasts </a>
                       </li>
                       <li>
-                        <a href="http://www.flickr.com/photos/nasa-jpl">Flickr</a>
+                        <a href="https://www.jpl.nasa.gov/infographics" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Infographics </a>
                       </li>
                       <li>
-                        <a href="http://instagram.com/nasajpl">Instagram</a>
+                        <a href="https://www.jpl.nasa.gov/galleries/visions-of-the-future" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Visions of the Future </a>
                       </li>
                       <li>
-                        <a href="http://itunes.apple.com/podcast/hd-nasas-jet-propulsion-laboratory/id262254981">iTunes</a>
-                      </li>
-                      <li>
-                        <a href="http://www.ustream.tv/nasajpl">UStream</a>
-                      </li>
-                      <li>
-                        <a href="/rss/">RSS</a>
-                      </li>
-                      <li>
-                        <a href="http://blogs.jpl.nasa.gov">Blog</a>
-                      </li>
-                      <li>
-                        <a href="/onthego/">Mobile</a>
-                      </li>
-                      <li>
-                        <a href="/social/">All Social Media</a>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/slice-of-history" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Slice of History </a>
                       </li>
                     </ul>
                   </div>
+                </div>
+                <div class='sitemap_block'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      NASA
+                      Engage
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="http://jplwater.nasa.gov">NASA Water Cleanup</a>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL and the Community </a>
                       </li>
                       <li>
-                        <a href="http://www.hq.nasa.gov/office/pao/FOIA/agency/">FOIA</a>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/lecture-series" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Lecture Series </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/events/tours/" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Public Tours </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/public-event-status" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Events </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/team-competitions" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Team Competitions </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/jpl-and-the-community/jpl-speakers-bureau" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL Speakers Bureau </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class='sitemap_block'>
+                  <div class='footer_sitemap_item'>
+                    <h3 class='sitemap_title'>
+                      Topics
+                    </h3>
+                    <ul class='subnav'>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/solar-system" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Solar System </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/mars" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Mars </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/earth" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Earth </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/climate-change" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Climate Change </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/stars-and-galaxies" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Stars and Galaxies </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/exoplanets" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Exoplanets </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/technology" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Technology </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/topics/jpl-life" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> JPL Life </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class='sitemap_block'>
+                  <div class='footer_sitemap_item'>
+                    <h3 class='sitemap_title'>
+                      For Media
+                    </h3>
+                    <ul class='subnav'>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/media-information" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Contacts and Information </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/media-information/press-kits" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Press Kits </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class='sitemap_block'>
+                  <div class='footer_sitemap_item'>
+                    <h3 class='sitemap_title'>
+                      More
+                    </h3>
+                    <ul class='subnav'>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/asteroid-watch" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Asteroid Watch </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/robotics-at-jpl" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Robotics at JPL </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/signup/" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Subscribe to Newsletter </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/who-we-are/universe" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Universe Newsletter </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/social" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> Social Media </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jpl.nasa.gov/rss" class="group  cursor-pointer can-hover:hover:underline inline-block px-4 py-1 -ml-4"> RSS </a>
                       </li>
                     </ul>
                   </div>
@@ -606,34 +637,34 @@
               <nav>
                 <ul>
                   <li>
-                    <a href='http://www.nasa.gov/' target='_blank'>NASA</a>
+                    <a href='https://www.nasa.gov'>NASA</a>
                   </li>
                   |
                   <li>
-                    <a href='http://www.caltech.edu/' target='_blank'>Caltech</a>
+                    <a href='https://www.caltech.edu'>Caltech</a>
                   </li>
                   |
                   <li>
-                    <a href='/copyrights.php' target='_blank'>Privacy</a>
+                    <a href='https://www.jpl.nasa.gov/caltechjpl-privacy-policies-and-important-notices'>Privacy</a>
                   </li>
                   |
                   <li>
-                    <a href='/imagepolicy'>Image Policy</a>
+                    <a href='https://www.jpl.nasa.gov/jpl-image-use-policy'>Image Policy</a>
                   </li>
                   |
                   <li>
-                    <a href='/faq.php'>FAQ</a>
+                    <a href='http://www.jpl.nasa.gov/frequently-asked-questions'>FAQ</a>
                   </li>
                   |
                   <li>
-                    <a href='/contact_JPL.php'>Feedback</a>
+                    <a href='http://www.jpl.nasa.gov/contact-jpl'>Feedback</a>
                   </li>
                 </ul>
               </nav>
             </div>
             <div class='credits'>
-              <span class='credits_manager'>Site Manager: Jon Nelson</span>
-              <span class='credits_webmaster'>Webmasters: Tony Greicius, Martin Perez, Luis Espinoza, Kim Orr</span>
+              <span class='credits_manager'>Site Managers: Veronica McGregor, Randal Jackson</span>
+              <span class='credits_webmaster'>Site Editors: Tony Greicius, Naomi Hartono</span>
             </div>
           </section>
         </footer>
