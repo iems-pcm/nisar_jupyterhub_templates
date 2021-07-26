@@ -1,12 +1,14 @@
 /*
  * Overrides for JupyterHub's login styles
  */
-#login-grid #login-main {display:table}
+#login-grid #login-main {display:table; height: auto}
 #login-grid #login-main #insecure-login-warning {background-color:#fcf8e3;padding:10px}a
 #login-grid #login-main #insecure-login-warning:focus,a
 #login-grid #login-main #insecure-login-warning:hover{background-color:#bbbbbb}
-#login-grid #login-main .service-login{text-align:center;display:table-cell;vertical-align:middle;margin:auto auto 20% auto}
-#login-grid #login-main form{display:table-cell;vertical-align:middle;margin:auto auto 20% auto;width:350px;font-size:large}
+/* #login-grid #login-main .service-login{text-align:center;display:table-cell;vertical-align:middle;margin:auto auto auto auto}
+#login-grid #login-main form{display:table-cell;vertical-align:middle;margin:auto auto auto auto;width:350px;font-size:large} */
+#login-grid #login-main .service-login{text-align:center;display:table-cell;vertical-align:middle;margin:auto auto 20% auto} 
+   #login-grid #login-main form{display:table-cell;vertical-align:middle;margin:auto auto 20% auto;width:350px;font-size:large} 
 #login-grid #login-main .input-group,#login-main button,#login-main input[type=text]{width:100%}
 #login-grid #login-main input[type=submit]{margin-top:0}
 /* #login-grid #login-main .form-control:focus,#login-main input[type=submit]:focus{box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #f37524;border-color:#f37524;outline-color:#f37524} */
