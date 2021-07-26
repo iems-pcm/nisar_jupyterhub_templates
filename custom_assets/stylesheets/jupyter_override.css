@@ -2,67 +2,12 @@
  * Overrides for JupyterHub's login styles
  */
 #login-grid #login-main {display:table; height: auto}
-#login-grid #login-main #insecure-login-warning {background-color:#fcf8e3;padding:10px}a
-#login-grid #login-main #insecure-login-warning:focus,a
-#login-grid #login-main #insecure-login-warning:hover{background-color:#bbbbbb}
-/* #login-grid #login-main .service-login{text-align:center;display:table-cell;vertical-align:middle;margin:auto auto auto auto}
-#login-grid #login-main form{display:table-cell;vertical-align:middle;margin:auto auto auto auto;width:350px;font-size:large} */
-#login-grid #login-main .service-login{text-align:center;display:table-cell;vertical-align:middle;margin:auto auto 20% auto} 
-   #login-grid #login-main form{display:table-cell;vertical-align:middle;margin:auto auto 20% auto;width:350px;font-size:large} 
-#login-grid #login-main .input-group,#login-main button,#login-main input[type=text]{width:100%}
-#login-grid #login-main input[type=submit]{margin-top:0}
-/* #login-grid #login-main .form-control:focus,#login-main input[type=submit]:focus{box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #f37524;border-color:#f37524;outline-color:#f37524} */
-#login-grid #login-main .form-control:focus,#login-main input[type=submit]:focus{box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #aaaaaa;border-color:#aaaaaa;outline-color:#aaaaaa}
-#login-grid #login-main .login_error{color:#ff4500;font-weight:700;text-align:center}
-#login-grid #login-main .auth-form-header{padding:10px 20px;color:#ffffff;background:#4B6A8D;border-radius:3px 3px 0 0}
-#login-grid #login-main .auth-form-body{padding:20px;font-size:14px;border:thin silver solid;border-top:none;border-radius:0 0 3px 3px}
-/* #login-grid #login-main .auth-form-body .feedback-container .btn {background-color:#5a6470;padding:10px;font-size:14px;border:thin silver solid;border-top:none;border-radius:0 0 3px 3px} */
 
-#login-grid #login-main .auth-form-body .feedback-container .btn {
-    display:inline-block; 
-    margin-bottom:0; 
-    font-weight:400; 
-    text-align:center; 
-    white-space:nowrap; 
-    vertical-align:middle; 
-    touch-action:manipulation; 
-    cursor:pointer; 
-    background-image:none;
-    color:#fff;
-    background-color:#4B6A8D;
-    border:1px solid transparent;
-    padding:6px 12px;
-    font-size:14px;
-    line-height:1.42857143;
-    border-radius:2px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none}
-/* #login-grid #login-main .auth-form-body .feedback-container .btn{
-    outline:5px auto -webkit-focus-ring-color;
-    outline-offset:-2px} */
-#login-grid #login-main .auth-form-body .feedback-container .btn:focus,
-#login-grid #login-main .auth-form-body .feedback-container .btn:hover{
-    background-color:#6083AA;
-    color:#FFF;
-    text-decoration:none
+body {
+  background-image: url("/static/custom_assets/images/51_nisar-home.jpg");
+  background-size: contain;
+  background-attachment: fixed;
 }
-#login-grid #login-main .auth-form-body .feedback-container .btn.active,
-#login-grid #login-main .auth-form-body .feedback-container .btn:active{
-    background-image:none;
-    outline:0;
-    backgound-color:#4B6A8D;
-    color:#FFF
-    -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
-}
-#login-grid #login-main .auth-form-body .feedback-container .btn.disabled,
-#login-grid #login-main .auth-form-body .feedback-container .btn[disabled] {
-    cursor:not-allowed;
-    filter:alpha(opacity=65);
-    opacity:.65;
-    -webkit-box-shadow:none;
-    box-shadow:none}
 
 a.sso_login_button {
   position: relative;
