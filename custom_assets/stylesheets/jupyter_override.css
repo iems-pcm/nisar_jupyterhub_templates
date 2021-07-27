@@ -1,12 +1,17 @@
 /*
  * Overrides for JupyterHub's login styles
  */
-#login-grid #login-main {display:table; height: auto}
+#login-grid #login-main {
+  display:table; 
+  height:30vh; 
+}
 
 body {
   background-image: url("/static/custom_assets/images/51_nisar-home.jpg");
+  background-color: #000;
   background-size: contain;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 a.sso_login_button {
