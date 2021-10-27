@@ -79,10 +79,10 @@
                 </div>
                 <div class='brand2'>
                   <div class='jpl_logo'>
-                    <a href='https://www.jpl.nasa.gov' id='jpl_logo' title='JPL home'>Jet Propulsion Laboratory</a>
+                    <a href='https://www.jpl.nasa.gov' id='jpl_logo2' title='JPL home'>Jet Propulsion Laboratory</a>
                   </div>
                   <div class='caltech_logo'>
-                    <a href='https://www.caltech.edu' id='caltech_logo' target='_blank' title='visit caltech.edu'>California Institute of Technology</a>
+                    <a href='https://www.caltech.edu' id='caltech_logo2' target='_blank' title='visit caltech.edu'>California Institute of Technology</a>
                   </div>
                 </div>
                 <img alt='' class='print_only print_logo' src='{{ static_url("custom_assets/images/logo_nasa_trio_black@2x.png") }}'>
@@ -99,8 +99,8 @@
               <div class='grid_layout'>
                 <div class='directory'>
                   <form action='https://www.jpl.nasa.gov/search' class='overlay_search top_search'>
-                    <input class='search_field' name='query' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
-                    <input class='search_submit' type='submit' value=''>
+                    <input class='search_field' name='query' aria-label='Query' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
+                    <input class='search_submit' type='submit' aria-label='Submit' value=''>
                   </form>
 
                   <div class='nav_item'>
@@ -336,15 +336,14 @@
                     </div>
                   </div>
                   <form action='https://wwww.jpl.nasa.gov/search' class='overlay_search'>
-                    <input class='search_field' name='query' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
-                    <input class='search_submit' type='submit' value=''>
+                    <input class='search_field' name='query' aria-label='Query' onblur="this.placeholder = 'search'" onfocus="this.placeholder = ''" placeholder='search' type='text' value=''>
+                    <input class='search_submit' type='submit' aria-label='Submit' value=''>
                   </form>
                 </div>
               </div>
             </section>
           </div>
         </div>
-        <div id='page'>
 {% endblock %}
 
 {% block main %}
@@ -380,8 +379,8 @@
               <div class='footer_newsletter'>
                 <h2>Get the Latest from JPL</h2>
                 <form action='https://www.jpl.nasa.gov/signup/index.php' class='submit_newsletter' method="post">
-                  <input class='email_field' name='email_field' onblur="this.placeholder = 'enter email address'" onfocus="this.placeholder = ''" placeholder='enter email address' type='text' value=''>
-                  <input class='email_submit' type='submit' value=''>
+                  <input class='email_field' name='email_field' aria-label='Email' onblur="this.placeholder = 'enter email address'" onfocus="this.placeholder = ''" placeholder='enter email address' type='text' value=''>
+                  <input class='email_submit' aria-label='Submit' type='submit' value=''>
                 </form>
               </div>
               <div class='share'>
