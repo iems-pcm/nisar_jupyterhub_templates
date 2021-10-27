@@ -1916,19 +1916,19 @@ ul.articles, .gallery_list {
       width: 75%;
       height: 100%; }
     /* line 120, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/partials/_header.scss */
-    .site_header .brand_area .jpl_logo {
+    .site_header .brand_area .jpl_logo, .site_header .brand_area .jpl_logo2 {
       text-indent: -9999px;
       width: 100%;
       float: left;
       height: 100%; }
     /* line 126, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/partials/_header.scss */
-    .site_header .brand_area .caltech_logo {
+    .site_header .brand_area .caltech_logo, .site_header .brand_area .caltech_logo2 {
       display: none; }
     /* line 133, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/partials/_header.scss */
     .site_header .brand_area .nasa_logo {
       text-indent: -9999px; }
   /* line 138, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/partials/_header.scss */
-  .site_header a#jpl_logo, .site_header a#caltech_logo, .site_header a.nasa_logo {
+  .site_header a#jpl_logo, .site_header a#jpl_logo2, .site_header a#caltech_logo, .site_header a#caltech_logo2, .site_header a.nasa_logo {
     display: block;
     height: 100%; }
 
