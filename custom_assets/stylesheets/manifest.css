@@ -1885,7 +1885,7 @@ ul.articles, .gallery_list {
   /* line 78, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/partials/_header.scss */
   .site_header .brand_area {
     position: relative;
-    background: url("/ondemand/hub/static/custom_assets/images/logo_nasa_trio_black@2x.png") no-repeat;
+    background: url("/static/custom_assets/images/logo_nasa_trio_black@2x.png") no-repeat;
     background-size: 100%;
     z-index: 300;
     display: inline-block;
