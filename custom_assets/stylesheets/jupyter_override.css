@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/static/custom_assets/images/51_nisar-home.jpg");
+  background-image: url("/ondemand/hub/static/custom_assets/images/51_nisar-home.jpg");
   background-color: #000;
   background-size: contain;
   background-attachment: fixed;
@@ -33,12 +33,12 @@ a.sso_login_button .sso_login_icon {
     vertical-align: middle;
     width: 25px;
     height: 20px;
-    background: url("/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
+    background: url("/ondemand/hub/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
     background-size: 25px 20px; 
 }
 @media (min-width: 600px) {
       a.sso_login_button .sso_login_icon {
-        background: url("/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
+        background: url("/ondemand/hub/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
         background-size: 90%;
         width: 139px;
         height: 43px; 
