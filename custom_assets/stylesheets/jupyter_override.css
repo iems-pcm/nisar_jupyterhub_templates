@@ -6,6 +6,38 @@
   height:30vh; 
 }
 
+#login-grid #login-main .auth-form-header {
+  color:#fff;
+  background-color:#0055ff;
+  border-color:#0099ff;
+}
+
+/*
+#login-grid #login-main .auth-form-body {
+  padding:20px;
+  font-size:14px;
+  border:thin silver solid;
+  border-top:none;
+  border-radius:0 0 3px 3px
+}
+*/
+
+#login-grid #login-main .auth-form-body label {
+  color:#000;
+}
+
+#login-main .form-control:focus, #login-main input[type=submit]:focus {
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #0099ff;
+  border-color: #0055ff;
+  outline-color: #0055ff;
+}
+
+#login-grid #login-main .auth-form-body .btn {
+  color:#fff;
+  background-color:#0055ff;
+  border-color:#0099ff;
+}
+
 body {
   background-image: url("/static/custom_assets/images/51_nisar-home.jpg");
   background-color: #000;

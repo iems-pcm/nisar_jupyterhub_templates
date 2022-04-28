@@ -62,6 +62,7 @@
               </div>
               <img alt='' class='print_only print_logo' src='{{ static_url("custom_assets/images/logo_nasa_trio_black@2x.png") }}'>
             </div>
+            <a class='visuallyhidden focusable' href='#main'>Skip Navigation</a>
             <div class='nav_area'>
               <a class='menu_button' href='javascript:void(0);' id='menu_button' title='menu button'>
                 <span class='menu_icon'>menu and search</span>
@@ -352,22 +353,12 @@
           <div class='header_mask'></div>
           <section class='content_page module'>
             <div id='login-grid' class='grid_layout'>
-              <div id='login-main' class='container'>
-                <div class="service-login">
-                  <a class="sso_login_button" id="sso_login_button" title="JPL SSO" href="oauth_login?next=%2Fondemand%2Fhub%2F">
-                      <span class='sso_login_icon'>Sign in with JPL SSO</span>
-                  </a>
-                </div>
-              </div>
-    <!-- 
-    {% block login %}
-            {{ super() }}
-    {% endblock %}
-    -->
+              {% block login %}
+                {{ super() }}
+              {% endblock %}
             </div>
          </section>
        </div>
-
 {% endblock %}
 
 {% block footer %}
