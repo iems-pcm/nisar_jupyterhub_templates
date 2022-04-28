@@ -23,7 +23,7 @@
 */
 
 #login-grid #login-main .auth-form-body label {
-  color:#000;
+  color:#0099ff;
 }
 
 #login-main .form-control:focus, #login-main input[type=submit]:focus {
