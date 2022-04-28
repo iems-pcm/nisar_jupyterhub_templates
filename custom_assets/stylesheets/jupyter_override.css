@@ -7,14 +7,14 @@
 }
 
 body {
-  background-image: url("/ondemand/hub/static/custom_assets/images/51_nisar-home.jpg");
+  background-image: url("/ondemand/static/custom_assets/images/51_nisar-home.jpg");
   background-color: #000;
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
-a.sso_login_button {
+a.login_button {
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -23,37 +23,37 @@ a.sso_login_button {
   text-decoration: none; 
 }
 @media (min-width: 600px) {
-    a.sso_login_button {
+    a.login_button {
       padding: 0; 
     }
 }
-a.sso_login_button .sso_login_icon {
+a.login_button .sso_login_icon {
     text-indent: -9999px;
     display: inline-block;
     vertical-align: middle;
     width: 25px;
     height: 20px;
-    background: url("/ondemand/hub/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
+    background: url("/ondemand/static/custom_assets/images/login_button@2x.png") center center no-repeat;
     background-size: 25px 20px; 
 }
 @media (min-width: 600px) {
-      a.sso_login_button .sso_login_icon {
-        background: url("/ondemand/hub/static/custom_assets/images/sso_login_button@2x.png") center center no-repeat;
+      a.login_button .sso_login_icon {
+        background: url("/ondemand/static/custom_assets/images/login_button@2x.png") center center no-repeat;
         background-size: 90%;
         width: 139px;
         height: 43px; 
      } 
 }
 @media (min-width: 1200px) {
-     a.sso_login_button .sso_login_icon {
+     a.login_button .sso_login_icon {
         background-size: 100%; 
      } 
 }
-a.sso_login_button .sso_login_label {
+a.login_button .sso_login_label {
     display: none; 
 }
 @media (min-width: 769px) {
-    a.sso_login_button .sso_login_label {
+    a.login_button .sso_login_label {
         top: .1em;
         margin-left: .3em;
         position: relative;
