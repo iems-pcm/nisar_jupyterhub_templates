@@ -1,9 +1,15 @@
 /*
  * Overrides for JupyterHub's login styles
  */
-#login-grid #login-main {
-  display:table; 
-  height:30vh; 
+#user_agreement {
+  color:#000;
+  background-color:#dfeaff;
+  width:40%;
+  font-size:small;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  opacity:0.8; 
 }
 
 body {
