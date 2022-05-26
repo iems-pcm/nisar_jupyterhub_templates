@@ -12,6 +12,36 @@
   opacity:0.8; 
 }
 
+#user_rules {
+  color:#000;
+  background-color:#dfeaff;
+  width:60%;
+  font-size:medium;
+  margin-left:auto;
+  margin-right:auto;
+  opacity:0.8;
+}
+
+.ur_h3 {
+  background:#dfeaff;
+  font-size:large;
+  font-weight:bold;
+}
+
+.ur_ol {
+  list-style:decimal;
+  margin-left:20px;
+  background:#dfeaff;
+  padding:5px;
+}
+
+.ur_nested_ol {
+  list-style:lower-alpha;
+  margin-left:50px;
+  background:#dfeaff;
+  padding:5px;
+}
+
 body {
   background-image: url("/ondemand/static/custom_assets/images/51_nisar-home.jpg");
   background-color: #000;
